@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adda Jaipur</title>
+    <title>Adda Jaipur - Home</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -11,10 +11,10 @@
         <div class="logo">Adda Jaipur</div>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Products</a></li>
-                <li><a href="#" id="cart">Cart (0)</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="payment.html">Payment</a></li>
+                <li><a href="profile.html">My Profile</a></li>
             </ul>
         </nav>
     </header>
@@ -24,26 +24,15 @@
             <div class="product">
                 <h2>Product 1</h2>
                 <p>Description of Product 1</p>
-                <p>Price: $10</p>
-                <button onclick="addToCart('Product 1', 10)">Add to Cart</button>
+                <button onclick="addToCart('Product 1')">Add to Cart</button>
             </div>
             <div class="product">
                 <h2>Product 2</h2>
                 <p>Description of Product 2</p>
-                <p>Price: $20</p>
-                <button onclick="addToCart('Product 2', 20)">Add to Cart</button>
-            </div>
-            <div class="product">
-                <h2>Product 3</h2>
-                <p>Description of Product 3</p>
-                <p>Price: $30</p>
-                <button onclick="addToCart('Product 3', 30)">Add to Cart</button>
+                <button onclick="addToCart('Product 2')">Add to Cart</button>
             </div>
         </section>
     </main>
-    <footer>
-        <p>&copy; 2023 Adda Jaipur. All rights reserved.</p>
-    </footer>
     <script src="script.js"></script>
 </body>
 </html>
